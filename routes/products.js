@@ -6,8 +6,9 @@ let pool = require('../pool');
 router.get('/list',(req,res)=>{
   pool.query('SELECT * FROM xz_index_product',(err,result)=>{
     console.log(result);
+    res.json(result);
   })
-  res.send('this is product list')
+  
 })
 router.get('/detail',(req,res)=>{
   res.send('this is detail page')
