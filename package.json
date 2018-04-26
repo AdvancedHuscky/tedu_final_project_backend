@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/AdvancedHuscky/tedu_final_project_backend#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "supervisor": "^0.12.0"
   }
 }
