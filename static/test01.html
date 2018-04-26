@@ -11,8 +11,15 @@
 <body>
   <h1>this is test 01</h1>
   <button id="btnGet">发起Get请求</button>
+  <button id="btnGet1">发起Get请求</button>
   <button id="btnPost">发起Post请求</button>
   <script>
+    $('#btnGet1').click(()=>{
+      $.get('/orderConfirm/120')
+      .then((result)=>{
+        console.log(result)
+      })
+    })
     $('#btnGet').click(()=>{
       console.log('button clicked');
       $.get('/detail?id=1')

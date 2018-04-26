@@ -24,7 +24,11 @@ app.post('/login',(req,rep)=>{
   // 方式2：事件
   req.on('data',(buf)=>{
     console.log(buf.toString());
-    
+
   })
 
+})
+app.get('/orderConfirm/:price',(req,res)=>{
+  console.log(req.params);
+  res.send('orderConfirm')
 })
