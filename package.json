@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "mfresh node backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdvancedHuscky/tedu_final_project_backend.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "William",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdvancedHuscky/tedu_final_project_backend/issues"
+  },
+  "homepage": "https://github.com/AdvancedHuscky/tedu_final_project_backend#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
