@@ -21,8 +21,10 @@
   "homepage": "https://github.com/AdvancedHuscky/tedu_final_project_backend#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
+    "morgan": "^1.9.0",
     "mysql": "^2.15.0",
     "supervisor": "^0.12.0"
   },
