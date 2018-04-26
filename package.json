@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/AdvancedHuscky/tedu_final_project_backend#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
     "mysql": "^2.15.0",
     "supervisor": "^0.12.0"
