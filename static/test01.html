@@ -6,8 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="/testcss">
+  <script src="/jq"></script>
 </head>
 <body>
   <h1>this is test 01</h1>
+  <button id="btnGet">发起Get请求</button>
+  <button id="btnPost">发起Post请求</button>
+  <script>
+    $('#btnGet').click(()=>{
+      console.log('button clicked');
+      $.get('/detail?id=1')
+      .then((result)=>{
+        console.log(result);
+      })
+    });
+    $('#btnPost').click(()=>{
+      $.post(
+        '/login',
+        {uname:'zhangsan',upwd:123456}
+      )
+      .then((result)=>{
+        console.log(result);
+      })
+    })
+  </script>
 </body>
 </html>
